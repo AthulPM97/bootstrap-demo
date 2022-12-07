@@ -11,17 +11,14 @@
 </head>
 <body>
     <div class="container">
-        <label for="text" class="form-label">Name</label>
-        <div class="input-group">
-            <!-- input groups will give dividing lines between input boxes -->
-            <div class="input-group-text">First</div>
-            <!-- input-group-text will give labels like these -->
-            <input type="text" class="form-control">
-            <div class="input-group-text">Last</div>
-            <input type="text" class="form-control">
-            <button class="btn btn-primary">+</button>
+        <div class="form-floating">
+            <!-- for floating label wrap input and label inside form-floating
+            Label MUST come after input tag.
+        input MUST have a placeholder of any value -->
+            <input type="email" class="form-control" placeholder="Email here">
+            <label for="email">Email</label>
         </div>
-        <button>Submit</button>
+        <button class="btn btn-primary">Submit</button>
     </div>
 
     <!-- JavaScript Bundle with Popper -->
