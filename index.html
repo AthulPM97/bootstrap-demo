@@ -11,11 +11,15 @@
 </head>
 <body>
     <div class="container">
-        <label for="email" class="form-label">Email</label>
-        <select name="number" id="list" class="form-select">
-            <option >one</option>
-            <option>two</option>
-        </select>
+        <label for="text" class="form-label">Name</label>
+        <div class="input-group">
+            <!-- input groups will give dividing lines between input boxes -->
+            <div class="input-group-text">First</div>
+            <!-- input-group-text will give labels like these -->
+            <input type="text" class="form-control">
+            <div class="input-group-text">Last</div>
+            <input type="text" class="form-control">
+        </div>
         <button>Submit</button>
     </div>
 
